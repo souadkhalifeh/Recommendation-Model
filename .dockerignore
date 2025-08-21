@@ -1,6 +1,4 @@
-.git
-.gitignore
-README.md
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -21,28 +19,44 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
-venv/
+
+# Virtual environments
+.env
+.venv
 env/
+venv/
 ENV/
+env.bak/
+venv.bak/
+
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
+
+# OS
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
-*.log
-logs/
-.pytest_cache/
-.coverage
-htmlcov/
 
-fine_tuned_price_model/
-swap_dataset.csv
-sbert_text_embeddings.npy
+# Git
+.git
+.gitignore
 
-.dockerignore
-Dockerfile
-docker-compose.yml
-.gcloudignore
+# Documentation
+README.md
+*.md
+
+# Test files
+test_*.py
+*_test.py
+simple_test.py
+
+# Development files
+run_api.py
